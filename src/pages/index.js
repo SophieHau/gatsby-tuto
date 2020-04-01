@@ -32,9 +32,6 @@ export default ({ data }) => {
             </div>
           ))
         }
-        
-      </div>
-      <div>
         <form 
           name="contact" 
           method="post"
@@ -45,6 +42,7 @@ export default ({ data }) => {
           <button>Send</button>
         </form>
       </div>
+      
     </Layout>
   )
 }

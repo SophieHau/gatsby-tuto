@@ -32,17 +32,19 @@ export default ({ data }) => {
             </div>
           ))
         }
+        
+      </div>
+      <div>
         <form 
           name="contact" 
           method="post"
           data-netlify = "true"
           data-netlify-honeypot="bot-field"
         >
-          <input name="name" type="text" placeholder="name"/>
+          <input name="name" type="text" placeholder="Your Name"/>
           <button>Send</button>
         </form>
       </div>
-      
     </Layout>
   )
 }

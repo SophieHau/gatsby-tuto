@@ -18,7 +18,7 @@ const BlogTitle = styled.h3`
 export default ({ data }) => {
   return (
     <Layout>
-      <form name="contact" method="POST" data-netlify="true">
+      <form name="contact-form" method="POST" data-netlify="true">
   <p>
     <label>Your Name: <input type="text" name="name" /></label>   
   </p>

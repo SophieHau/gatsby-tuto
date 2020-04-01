@@ -18,9 +18,10 @@ const BlogTitle = styled.h3`
 export default ({ data }) => {
   return (
     <Layout>
-      <form name="contact-form3" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+      <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
         <p hidden>
           <label >Don’t fill this out if you're human: <input name="bot-field"/></label>
+          <input type="hidden" name="form-name" value="contact" />
         </p>
         <p>
           <label>Email: <input type="email" name="email" /></label>
